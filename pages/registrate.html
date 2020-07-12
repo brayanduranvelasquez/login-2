@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Registrarme</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-au-compatible" content="ie-edge">
+  <meta name="author" content="Brayan DVelasquez">
+  <meta name="revised" content="11/07/2020">
+  <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/styles/style.css">
+</head>
+
+<body>
+
+  <main class="container p-2">
+    <div class="row justify-content-center">
+
+      <div class="col-10 col-md-6 border p-5 bg-light mt-4 mb-4">
+        <h5 class="text-justify">Registrate</h5><br>
+
+        <form>
+
+          <div class="form-group">
+            <label for="nombre">Primer Nombre</label>
+            <input type="text" id="nombre" name="usu" class="form-control" placeholder="Ingrese su nombre" pattern="[A-Za-záéíóúÁÉÍÓÚñÑ']+" minlength="3" required>
+
+            <div class="error" id="mensajeNom">
+              <p>Ingrese su nombre</p>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="apellido">Primer Apellido</label>
+            <input type="text" id="apellido" name="apellido" class="form-control" placeholder="Ingrese su Apellido" pattern="[A-Za-záéíóúÁÉÍÓÚñÑ']+" minlength="3" required>
+
+            <div class="error" id="mensajeApe">
+              <p>Ingrese su primer apellido</p>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="correo">Correo Electronico</label>
+            <input type="email" id="correo" name="correo" class="form-control" placeholder="Ingrese su correo" minlength="3" required>
+
+            <div class="error" id="mensajeCo">
+              <p>Ingrese correo</p>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="usuario">Usuario</label>
+            <input type="text" class="form-control" name="usuario" id="usuario" placeholder="Ingrese un usuario" minlength="7" required>
+
+            <div class="error" id="mensajeUsu">
+              <p>Mínimo 8 caracteres, sin espacios</p>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="contra">Contraseña</label>
+            <input type="password" class="form-control" name="contra" id="contra" placeholder="Ingrese una contraseña" required minlength="7">
+
+            <div class="error" id="mensajeCon">
+              <p>Mínimo 7 caracteres, sin espacios</p>
+            </div>
+            <div class="error" id="mensajeConCoincidir">
+              <p>No coinciden</p>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="contrados">Repita su contraseña</label>
+            <input type="password" class="form-control" id="repitecontra" placeholder="Repita su contraseña" minlength="7" required>
+
+            <div class="error" id="mensajeConDosError">
+              <p>No coinciden las contraseñas</p>
+            </div>
+            <div class="bien" id="mensajeConDosBien">
+              <p>Si coinciden las contraseñas</p>
+            </div>
+          </div>
+
+          <p class="alert alert-warning">Al registrarse, esta confirmando que ha leído el documento "Politicas de
+            Privacidad" de nuestro sitio web. De no ser asi, haga clic <a class="text-primary">aquí</a>.</p>
+
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="aceptar" required>
+            <label class="custom-control-label" for="aceptar">He leído y acepto las politicas de privacidad de este sitio web.</label>
+          </div><br>
+
+          <input type="submit" id="registrar" value="Registrar" class="btn btn-primary btn-block">
+        </form>
+
+        <br><a href="../index.html" class="btn btn-warning btn-block">Regresar</a>
+
+      </div>
+    </div>
+  </main>
+
+  <script src="../js/script/registrate_mensajes.js"></script>
+  <script src="../js/script/registrate.js"></script>
+</html>
