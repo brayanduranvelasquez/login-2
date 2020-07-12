@@ -1,0 +1,27 @@
+body{
+  min-width: 100%;
+  min-height: 100vh;
+  background-image: url(../../img/background.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+.bien {
+    color: green;
+    display: none;
+}
+
+.error-input {
+  border: 1px solid red;
+}
+
+.bien-input {
+  border: 1px solid green;
+}
