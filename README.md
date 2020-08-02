@@ -9,16 +9,16 @@ Contraseña: 123123123
 
 ### Ir al sitio
 
-Para ingresar al sitio, debe ir a https://brayandvelasquez.github.io/login-2/
-O, [haga clic en este link](https://brayandvelasquez.github.io/login-2/)
+Para ingresar al sitio, debe ir a https://brayanduranvelasquez.github.io/login-2/
+O, [haga clic en este link](https://brayanduranvelasquez.github.io/login-2/)
 
 ### Vista Previa
 
-![screenshot](https://raw.githubusercontent.com/BrayanDVelasquez/login-2/master/img/github/screenshot1.jpg)
-![screenshot](https://raw.githubusercontent.com/BrayanDVelasquez/login-2/master/img/github/screenshot2.jpg)
-![screenshot](https://raw.githubusercontent.com/BrayanDVelasquez/login-2/master/img/github/screenshot3.jpg)
-![screenshot](https://raw.githubusercontent.com/BrayanDVelasquez/login-2/master/img/github/screenshot4.jpg)
-![screenshot](https://raw.githubusercontent.com/BrayanDVelasquez/login-2/master/img/github/screenshot5.jpg)
+![screenshot](https://raw.githubusercontent.com/brayanduranvelasquez/login-2/master/img/github/screenshot1.jpg)
+![screenshot](https://raw.githubusercontent.com/brayanduranvelasquez/login-2/master/img/github/screenshot2.jpg)
+![screenshot](https://raw.githubusercontent.com/brayanduranvelasquez/login-2/master/img/github/screenshot3.jpg)
+![screenshot](https://raw.githubusercontent.com/brayanduranvelasquez/login-2/master/img/github/screenshot4.jpg)
+![screenshot](https://raw.githubusercontent.com/brayanduranvelasquez/login-2/master/img/github/screenshot5.jpg)
 
 ### Tecnologías en uso
 
